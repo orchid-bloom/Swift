@@ -15,6 +15,7 @@
 		A38ADEB41DFBB109004D48B3 /* Swift_______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38ADEB31DFBB109004D48B3 /* Swift_______Tests.swift */; };
 		A38ADEBF1DFBB109004D48B3 /* Swift_______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38ADEBE1DFBB109004D48B3 /* Swift_______UITests.swift */; };
 		A39752921DFC0C64004BF51C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39752911DFC0C64004BF51C /* Person.swift */; };
+		A39752941DFC17E9004BF51C /* Person+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39752931DFC17E9004BF51C /* Person+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A38ADEBE1DFBB109004D48B3 /* Swift_______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_______UITests.swift"; sourceTree = "<group>"; };
 		A38ADEC01DFBB109004D48B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A39752911DFC0C64004BF51C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A39752931DFC17E9004BF51C /* Person+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A38ADE9E1DFBB109004D48B3 /* AppDelegate.swift */,
 				A38ADEA01DFBB109004D48B3 /* ViewController.swift */,
 				A39752911DFC0C64004BF51C /* Person.swift */,
+				A39752931DFC17E9004BF51C /* Person+extension.swift */,
 				A38ADEA21DFBB109004D48B3 /* Main.storyboard */,
 				A38ADEA51DFBB109004D48B3 /* Assets.xcassets */,
 				A38ADEA71DFBB109004D48B3 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39752941DFC17E9004BF51C /* Person+extension.swift in Sources */,
 				A39752921DFC0C64004BF51C /* Person.swift in Sources */,
 				A38ADEA11DFBB109004D48B3 /* ViewController.swift in Sources */,
 				A38ADE9F1DFBB109004D48B3 /* AppDelegate.swift in Sources */,

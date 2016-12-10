@@ -13,7 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let p = Person(name: "name", age: 2)
+        print(p?.name)
+        
         //URL的构造函数等于nil
+        //init?(string: String)构造函数可以返回 nil 
         let url = URL(string: "http://www.baidu.com")
         URLSession.shared.dataTask(with: url!) { (data, _, error) in
 //            if(error != nil) {

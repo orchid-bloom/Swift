@@ -1,7 +1,7 @@
 #便利构造函数，判断对象创建条件
 #便利构造函数，简化代码创建对象extension
-#deinit
+#deinit   无参数，不许重写
 
-###KVO
-###通知
-###NSTimer 
+###KVO   不销毁，会崩溃
+###通知   不销毁会内存泄漏
+###NSTimer//CADisplayLink(时钟屏幕没刷新一次调用一次)  不销毁会循环引用

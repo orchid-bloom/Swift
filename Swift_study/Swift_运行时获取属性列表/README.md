@@ -2,6 +2,7 @@
 ###private的属性，在运行时拿不到属性（可以拿到 ivar），同样使用KVC会崩溃
 ###使用guard 语法依次判断，只要有一个为空就不执行后续的代码
 </code>
+
 var count:UInt32 = 0
 let list = class_copyPropertyList(self, &count)
 for i in 0..<Int(count) {
@@ -18,4 +19,5 @@ print(proName);
 }
 //3.释放C语言的对象
 free(list)
+
 </code>

@@ -17,7 +17,6 @@ class ViewController: UIViewController {
 //        demo3();
         demo4(name: "老王", age: 22)
     }
-
     //常见错误，在解包时发现一个错误
     /**
      定义可选项用  '?'

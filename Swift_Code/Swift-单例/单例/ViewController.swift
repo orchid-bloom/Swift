@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         let sharedApp  = BYSAppManager.shared
         
         print("sharedHelp",sharedHelp,"sharedApp",sharedApp);
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

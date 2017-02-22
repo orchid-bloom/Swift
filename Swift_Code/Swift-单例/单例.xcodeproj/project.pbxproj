@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65F2CE51E5D725F00B0D9CE /* BYSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B65F2CE41E5D725F00B0D9CE /* BYSManager.m */; };
 		B6B0376A1E5ADBC800A417CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B037691E5ADBC800A417CC /* AppDelegate.swift */; };
 		B6B0376C1E5ADBC800A417CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0376B1E5ADBC800A417CC /* ViewController.swift */; };
 		B6B0376F1E5ADBC800A417CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B0376D1E5ADBC800A417CC /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B65F2CE21E5D725F00B0D9CE /* 单例-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "单例-Bridging-Header.h"; sourceTree = "<group>"; };
+		B65F2CE31E5D725F00B0D9CE /* BYSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYSManager.h; sourceTree = "<group>"; };
+		B65F2CE41E5D725F00B0D9CE /* BYSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYSManager.m; sourceTree = "<group>"; };
 		B6B037661E5ADBC800A417CC /* 单例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "单例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B037691E5ADBC800A417CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6B0376B1E5ADBC800A417CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,10 +106,13 @@
 				B6B037691E5ADBC800A417CC /* AppDelegate.swift */,
 				B6B0376B1E5ADBC800A417CC /* ViewController.swift */,
 				B6B037971E5ADC0100A417CC /* BYSHelp.swift */,
+				B65F2CE31E5D725F00B0D9CE /* BYSManager.h */,
+				B65F2CE41E5D725F00B0D9CE /* BYSManager.m */,
 				B6B0376D1E5ADBC800A417CC /* Main.storyboard */,
 				B6B037701E5ADBC800A417CC /* Assets.xcassets */,
 				B6B037721E5ADBC800A417CC /* LaunchScreen.storyboard */,
 				B6B037751E5ADBC800A417CC /* Info.plist */,
+				B65F2CE21E5D725F00B0D9CE /* 单例-Bridging-Header.h */,
 			);
 			path = "单例";
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 					B6B037651E5ADBC800A417CC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = NSP28TH28W;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					B6B037791E5ADBC900A417CC = {
@@ -265,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65F2CE51E5D725F00B0D9CE /* BYSManager.m in Sources */,
 				B6B0376C1E5ADBC800A417CC /* ViewController.swift in Sources */,
 				B6B0376A1E5ADBC800A417CC /* AppDelegate.swift in Sources */,
 				B6B037981E5ADC0100A417CC /* BYSHelp.swift in Sources */,
@@ -419,11 +428,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NSP28TH28W;
 				INFOPLIST_FILE = "单例/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tema..--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "单例/单例-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -432,11 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NSP28TH28W;
 				INFOPLIST_FILE = "单例/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tema..--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "单例/单例-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -518,6 +532,7 @@
 				B6B037901E5ADBC900A417CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B037911E5ADBC900A417CC /* Build configuration list for PBXNativeTarget "单例Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				B6B037931E5ADBC900A417CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B037941E5ADBC900A417CC /* Build configuration list for PBXNativeTarget "单例UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				B6B037961E5ADBC900A417CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        /*
+        设置视图控制器需要添加命名空间，默认是项目名称，最好不要有（数字与特殊字符）
+        NSClassFromString(clsName)  反射机制
+        */
+//        let ns = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
+//        let ns = Bundle.main.namespace()
+        
+        //利用函数调用
+//        let clsName =  Bundle.main.namespace() + "." + "ViewController"
+
+        //利用属性调用
+        let clsName =  Bundle.main.namespace + "." + "ViewController"
+        let cls     = NSClassFromString(clsName) as? UIViewController.Type
+        let vc      = cls?.init()
+        
+        
+        window = UIWindow()
+        window?.backgroundColor = UIColor.white
+        window?.rootViewController = vc
+        window?.makeKeyAndVisible()
         return true
     }
 

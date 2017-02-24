@@ -14,6 +14,7 @@
 		B6FD0A481E6016EC00DAB8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FD0A461E6016EC00DAB8D2 /* LaunchScreen.storyboard */; };
 		B6FD0A531E6016EC00DAB8D2 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD0A521E6016EC00DAB8D2 /* ____Tests.swift */; };
 		B6FD0A5E1E6016EC00DAB8D2 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD0A5D1E6016EC00DAB8D2 /* ____UITests.swift */; };
+		B6FD0A6C1E601B6300DAB8D2 /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD0A6B1E601B6300DAB8D2 /* Bundle+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B6FD0A591E6016EC00DAB8D2 /* 反射机制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "反射机制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FD0A5D1E6016EC00DAB8D2 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
 		B6FD0A5F1E6016EC00DAB8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FD0A6B1E601B6300DAB8D2 /* Bundle+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B6FD0A3D1E6016EC00DAB8D2 /* AppDelegate.swift */,
 				B6FD0A3F1E6016EC00DAB8D2 /* ViewController.swift */,
+				B6FD0A6B1E601B6300DAB8D2 /* Bundle+extension.swift */,
 				B6FD0A411E6016EC00DAB8D2 /* Main.storyboard */,
 				B6FD0A441E6016EC00DAB8D2 /* Assets.xcassets */,
 				B6FD0A461E6016EC00DAB8D2 /* LaunchScreen.storyboard */,
@@ -193,7 +196,7 @@
 				TargetAttributes = {
 					B6FD0A391E6016EC00DAB8D2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = NSP28TH28W;
+						DevelopmentTeam = P9VHF7G578;
 						ProvisioningStyle = Automatic;
 					};
 					B6FD0A4D1E6016EC00DAB8D2 = {
@@ -264,6 +267,7 @@
 			files = (
 				B6FD0A401E6016EC00DAB8D2 /* ViewController.swift in Sources */,
 				B6FD0A3E1E6016EC00DAB8D2 /* AppDelegate.swift in Sources */,
+				B6FD0A6C1E601B6300DAB8D2 /* Bundle+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NSP28TH28W;
+				DEVELOPMENT_TEAM = P9VHF7G578;
 				INFOPLIST_FILE = "反射机制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tema..----";
@@ -428,7 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NSP28TH28W;
+				DEVELOPMENT_TEAM = P9VHF7G578;
 				INFOPLIST_FILE = "反射机制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tema..----";

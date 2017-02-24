@@ -27,6 +27,14 @@ class ViewController: UIViewController {
     }()
     
     
+    lazy var label3 = { ()->DemoLabel in
+        
+        var l = DemoLabel()
+        return l
+        
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,6 +49,9 @@ class ViewController: UIViewController {
         label2.text = "宝宝不是大长腿"
         label2.sizeToFit()
         label2.textColor = UIColor.black
+        
+        
+        
         
     }
 

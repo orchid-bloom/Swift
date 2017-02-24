@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         demo4()
     }
     
@@ -97,6 +98,7 @@ class ViewController: UIViewController {
         
         //追加
         array.append("长得")
+        
         print(array)
         
         //修改

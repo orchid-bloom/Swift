@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         }
         print(f(10,20))
         print(b1(100))
-        
+
         //尾随闭包
         //如果函数的最后一个参数是闭包，函数的参数可以提前结束，最后参数直接使用{}包装闭包的我代码
         loadData { (result) in

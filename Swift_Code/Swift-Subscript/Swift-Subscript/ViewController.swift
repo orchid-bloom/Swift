@@ -13,7 +13,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var person = NumberOfPeople()
+        
+        person[0] = 40
+        person[1] = 20
+        person[2] = 10
+        
+        
+        print("\(person[0])")
+        
+        
     }
     
     override func didReceiveMemoryWarning() {

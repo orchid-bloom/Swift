@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A35BF8AA1F03DA5E00C5B1A6 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF8A91F03DA5E00C5B1A6 /* Script.swift */; };
+		A35BF8AC1F03DE5100C5B1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35BF8AB1F03DE5100C5B1A6 /* Main.storyboard */; };
 		B674D9EA1F0345570022B3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674D9E91F0345570022B3D6 /* AppDelegate.swift */; };
 		B674D9EC1F0345580022B3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674D9EB1F0345580022B3D6 /* ViewController.swift */; };
-		B674D9EF1F0345580022B3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B674D9ED1F0345580022B3D6 /* Main.storyboard */; };
 		B674D9F11F0345580022B3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B674D9F01F0345580022B3D6 /* Assets.xcassets */; };
 		B674D9F41F0345580022B3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B674D9F21F0345580022B3D6 /* LaunchScreen.storyboard */; };
 		B674D9FF1F0345580022B3D6 /* Swift_SubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674D9FE1F0345580022B3D6 /* Swift_SubscriptTests.swift */; };
@@ -34,10 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A35BF8A91F03DA5E00C5B1A6 /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		A35BF8AB1F03DE5100C5B1A6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B674D9E61F0345570022B3D6 /* Swift-Subscript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Subscript.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B674D9E91F0345570022B3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B674D9EB1F0345580022B3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B674D9EE1F0345580022B3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B674D9F01F0345580022B3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B674D9F31F0345580022B3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B674D9F51F0345580022B3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +101,8 @@
 			children = (
 				B674D9E91F0345570022B3D6 /* AppDelegate.swift */,
 				B674D9EB1F0345580022B3D6 /* ViewController.swift */,
-				B674D9ED1F0345580022B3D6 /* Main.storyboard */,
+				A35BF8AB1F03DE5100C5B1A6 /* Main.storyboard */,
+				A35BF8A91F03DA5E00C5B1A6 /* Script.swift */,
 				B674D9F01F0345580022B3D6 /* Assets.xcassets */,
 				B674D9F21F0345580022B3D6 /* LaunchScreen.storyboard */,
 				B674D9F51F0345580022B3D6 /* Info.plist */,
@@ -235,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35BF8AC1F03DE5100C5B1A6 /* Main.storyboard in Resources */,
 				B674D9F41F0345580022B3D6 /* LaunchScreen.storyboard in Resources */,
 				B674D9F11F0345580022B3D6 /* Assets.xcassets in Resources */,
-				B674D9EF1F0345580022B3D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B674D9EC1F0345580022B3D6 /* ViewController.swift in Sources */,
+				A35BF8AA1F03DA5E00C5B1A6 /* Script.swift in Sources */,
 				B674D9EA1F0345570022B3D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +303,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B674D9ED1F0345580022B3D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B674D9EE1F0345580022B3D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B674D9F21F0345580022B3D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -419,6 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P9VHF7G578;
 				INFOPLIST_FILE = "Swift-Subscript/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baiyisoftware.tema.Swift-Subscript";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P9VHF7G578;
 				INFOPLIST_FILE = "Swift-Subscript/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baiyisoftware.tema.Swift-Subscript";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +514,7 @@
 				B674DA101F0345580022B3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B674DA111F0345580022B3D6 /* Build configuration list for PBXNativeTarget "Swift-SubscriptTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +523,7 @@
 				B674DA131F0345580022B3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B674DA141F0345580022B3D6 /* Build configuration list for PBXNativeTarget "Swift-SubscriptUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +532,7 @@
 				B674DA161F0345580022B3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

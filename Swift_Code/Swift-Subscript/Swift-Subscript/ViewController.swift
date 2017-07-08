@@ -19,10 +19,7 @@ class ViewController: UIViewController {
         person[1] = 20
         person[2] = 10
         
-        
         print("\(person[0])")
-        
-        
     }
     
     override func didReceiveMemoryWarning() {

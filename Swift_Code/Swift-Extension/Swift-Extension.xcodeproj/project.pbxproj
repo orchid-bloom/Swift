@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B664FB771F0637C7002DB789 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB6E1F0637C7002DB789 /* Bundle+Extension.swift */; };
+		B664FB781F0637C7002DB789 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB6F1F0637C7002DB789 /* UIBarButtonItem+Extension.swift */; };
+		B664FB791F0637C7002DB789 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB701F0637C7002DB789 /* UIView+Extension.swift */; };
+		B664FB7A1F0637C7002DB789 /* UIButton+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB711F0637C7002DB789 /* UIButton+Extention.swift */; };
+		B664FB7B1F0637C7002DB789 /* UITableView+Extenion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB721F0637C7002DB789 /* UITableView+Extenion.swift */; };
+		B664FB7C1F0637C7002DB789 /* MBProgressHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB731F0637C7002DB789 /* MBProgressHUD+Extension.swift */; };
+		B664FB7D1F0637C7002DB789 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB741F0637C7002DB789 /* String+Extention.swift */; };
+		B664FB7E1F0637C7002DB789 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB751F0637C7002DB789 /* Dictionary+Extension.swift */; };
+		B664FB7F1F0637C7002DB789 /* DTFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664FB761F0637C7002DB789 /* DTFileHelper.swift */; };
 		B674DA241F0351410022B3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674DA231F0351410022B3D6 /* AppDelegate.swift */; };
 		B674DA261F0351410022B3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674DA251F0351410022B3D6 /* ViewController.swift */; };
 		B674DA291F0351410022B3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B674DA271F0351410022B3D6 /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B664FB6E1F0637C7002DB789 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		B664FB6F1F0637C7002DB789 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		B664FB701F0637C7002DB789 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B664FB711F0637C7002DB789 /* UIButton+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extention.swift"; sourceTree = "<group>"; };
+		B664FB721F0637C7002DB789 /* UITableView+Extenion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extenion.swift"; sourceTree = "<group>"; };
+		B664FB731F0637C7002DB789 /* MBProgressHUD+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+Extension.swift"; sourceTree = "<group>"; };
+		B664FB741F0637C7002DB789 /* String+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		B664FB751F0637C7002DB789 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		B664FB761F0637C7002DB789 /* DTFileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTFileHelper.swift; sourceTree = "<group>"; };
 		B674DA201F0351410022B3D6 /* Swift-Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B674DA231F0351410022B3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B674DA251F0351410022B3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +147,15 @@
 		B674DA511F03516B0022B3D6 /* Extenion */ = {
 			isa = PBXGroup;
 			children = (
+				B664FB6E1F0637C7002DB789 /* Bundle+Extension.swift */,
+				B664FB6F1F0637C7002DB789 /* UIBarButtonItem+Extension.swift */,
+				B664FB701F0637C7002DB789 /* UIView+Extension.swift */,
+				B664FB711F0637C7002DB789 /* UIButton+Extention.swift */,
+				B664FB721F0637C7002DB789 /* UITableView+Extenion.swift */,
+				B664FB731F0637C7002DB789 /* MBProgressHUD+Extension.swift */,
+				B664FB741F0637C7002DB789 /* String+Extention.swift */,
+				B664FB751F0637C7002DB789 /* Dictionary+Extension.swift */,
+				B664FB761F0637C7002DB789 /* DTFileHelper.swift */,
 			);
 			name = Extenion;
 			sourceTree = "<group>";
@@ -202,6 +229,7 @@
 					B674DA1F1F0351410022B3D6 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = P9VHF7G578;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					B674DA331F0351420022B3D6 = {
@@ -270,8 +298,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B664FB781F0637C7002DB789 /* UIBarButtonItem+Extension.swift in Sources */,
 				B674DA261F0351410022B3D6 /* ViewController.swift in Sources */,
+				B664FB771F0637C7002DB789 /* Bundle+Extension.swift in Sources */,
+				B664FB7F1F0637C7002DB789 /* DTFileHelper.swift in Sources */,
+				B664FB7B1F0637C7002DB789 /* UITableView+Extenion.swift in Sources */,
+				B664FB7D1F0637C7002DB789 /* String+Extention.swift in Sources */,
+				B664FB791F0637C7002DB789 /* UIView+Extension.swift in Sources */,
+				B664FB7C1F0637C7002DB789 /* MBProgressHUD+Extension.swift in Sources */,
+				B664FB7A1F0637C7002DB789 /* UIButton+Extention.swift in Sources */,
 				B674DA241F0351410022B3D6 /* AppDelegate.swift in Sources */,
+				B664FB7E1F0637C7002DB789 /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +462,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P9VHF7G578;
 				INFOPLIST_FILE = "Swift-Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baiyisoftware.tema.Swift-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -438,11 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P9VHF7G578;
 				INFOPLIST_FILE = "Swift-Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baiyisoftware.tema.Swift-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

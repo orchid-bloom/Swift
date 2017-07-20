@@ -14,4 +14,12 @@ extension Bundle {
     var namespace : String {
     return infoDictionary!["CFBundleName"] as? String ?? ""
     }
+    
+    var version    :String? {
+        return infoDictionary!["CFBundleVersion"] as? String ?? ""
+    }
+    
+    var displayName:String? {
+        return infoDictionary!["CFBundleDisplayName"] as? String ?? ""
+    }
 }
